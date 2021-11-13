@@ -237,7 +237,7 @@ footer {
 .contant {
     background-color: #33394E;
     padding:  4em 7em;
-    height: 22em;
+    height: auto;
 }
 .title-client p, .title-role p {
     color: #C0C5DA;
