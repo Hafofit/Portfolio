@@ -1,0 +1,417 @@
+﻿html {
+    --scrollbarBG: #3D425B;
+    --thumbBG: #3D425B;
+}
+body::-webkit-scrollbar {
+    width: 11px;
+}
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #DAE1FF;
+    background-color: #282D41;
+    font-family: 'Poppins', sans-serif;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+    body::-webkit-scrollbar-thumb {
+        background-color: var(--thumbBG);
+        border-radius: 6px;
+        border: 3px solid var(--scrollbarBG);
+    }
+
+a{
+    text-decoration: none;
+   
+}
+#me-illustration {
+    width: 22em;   
+    margin-right: 5em;
+    position: absolute !important;
+    right: 0;
+    top: 0;
+}
+.navbar {
+    position: absolute;
+    width: 100%;
+    background-color: #1C1B29;
+    color: #E0E9FE;
+    top: 0;
+    right: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding-left: 2em;
+    text-align: right;
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #DAE1FF;
+}
+    .navbar-brand:hover {
+        color: #B8CDFF;
+    }
+    .navbar-brand:active {
+        color: #B8CDFF;
+    }
+    .nav-link {
+        color: #E0E9FE;
+        margin: 0em 1em;
+    }
+#navbarNav{
+    justify-content:flex-end;
+    text-align: left;
+}
+.nav-link:hover {
+    color: #B8CDFF;
+}
+    .nav-link:active {
+        color: #E0E9FE;
+    }
+.lead {
+    font-weight: normal;
+    color: #DAE1FF;
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+    margin-bottom: 2em;
+}
+.works h4 {
+    color: #2DDFB4;
+    font-weight: bold;
+}
+#about-box {
+    background-color: #2E3348;
+    padding: 5em;
+    height: 32EM;
+    margin-bottom: 8.3em;
+    margin-top: 7em;
+}
+    #about-box span {
+        color: #A0ABB5;
+    }
+ 
+    #about-box p {
+        width: 61%;
+        color: #C0C5DA;
+        font-weight: 300;
+        font-size: 1em;
+    }
+h1 {
+    color: #8CD9FF;
+    font-size: 4em;
+    font-weight: bold;
+}
+.email-link, .download-link {
+    color: #8CD9FF;
+    text-decoration: underline;
+}
+    .email-link:hover {
+        color: #2DDFB4;
+    }
+  .download-link:hover {
+    color: #2DDFB4;
+}
+.star {
+    width: 2.7em;
+    height: 3.5em;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 2em;
+    position: relative;
+    bottom: 1.5em;
+    /* margin-right: 1em; */
+    left: 0em;
+    margin-right: 1em;
+}
+/*#touch {
+    font-size: 2em;
+    position: relative;
+    top: -1em;
+}*/
+.star2 {
+    width: 1.5em;
+    /* height: 7em; */
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 1em;
+    position: relative;
+    bottom: 0.5em;
+    /* margin-right: 1em; */
+    /* left: 0em; */
+    /* margin-right: 1em; */
+}
+h1, h2, navbar-brand {
+    font-family: 'Inter', sans-serif;
+}
+
+.works-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+.col-md-5, .col-md-7{
+    z-index: 50;
+}
+.work-tiny-heading, .work-exp-year {
+    font-size: 1em;
+    color: #C0C5DA;
+}
+.workExp-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    margin: 2em 0em 1em 0em;
+    display: block;
+    color: #8CD9FF;
+}
+.workexp-Where{
+    font-size: 1.3em;
+}
+.bg-box {
+    z-index: 49;
+    background-color: red;
+    flex: 1;
+    position: absolute;
+}
+.fix {
+    margin-bottom: 1.5em;
+}
+/* Thin out the marketing headings */
+.works-heading {
+    line-height: 1;
+    color: #8CD9FF;
+    font-size: 2.25em;
+    font-weight: bold;
+    /* rtl:remove */
+    margin: 1em 0;
+}
+.content-titles {
+    color: #2DDFB4;
+    font-weight: bold;
+    font-size: 3em;
+    display: inline-block;
+}
+
+footer {
+    background-color: #1C1B29;
+    padding: 1em;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.modal-body p, .modal-body h2, .modal-body a{
+    color: #282D41 !important;
+}
+.modal-body h2{
+    font-size: 1.5em !important;
+}
+.modal-body{
+    padding: 2em;
+}
+#exampleModalLabel {
+    color: #282D41 !important;
+}
+.works {
+    line-height: 1.5;
+    /* margin: 6em 0; */
+    padding: 4em 2em;
+    margin-bottom: 6em;
+    margin-top: 2.2em;
+    background: #33394E;
+}
+.row.works:hover {
+    background: #123456;
+    opacity: 0.2;
+}
+.languages {
+    list-style-type: none;
+}
+    .languages li {
+        padding: 0em 2em;
+        display: inline-block;
+        background-color: #212840;
+        padding: 0.8em 1.1em;
+        border-radius: 0.3em;
+        margin-right: 1em;
+        margin-top: 1em;
+        color: #DCDDDE;
+    }
+.contant {
+    background-color: #33394E;
+    padding:  4em 7em;
+    height: 22em;
+}
+.title-client p, .title-role p {
+    color: #C0C5DA;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 420px) {
+    /* Bump up size of carousel content */
+    #about-box{
+        padding: 2em;
+    }
+    .content-titles {
+        font-size: 1.7em;
+    }
+}
+@media (max-width: 531px) {
+    /* Bump up size of carousel content */
+    .title-client {
+        width: 70%;
+    }
+    .fix{
+        width: 75%;
+    }
+    .title-role, .title-client {
+        float: none !important;
+    }
+}
+@media (min-width: 420px ) {
+    .content-titles {
+        font-size: 2em;
+    }
+}
+@media (max-width: 990px) {
+    #me-illustration {
+        position: static !important;
+        order: 0 !important;
+        margin-bottom: 1em;
+        width: 16em;
+        margin-left: 10em;
+    }
+
+    #about-box {
+        height: auto;
+        text-align: center;
+    }
+
+        #about-box p {
+            width: auto;
+        }
+
+        #about-box h1, #about-box h2, #about-box span, #about-box p {
+            order: 1 !important;
+        }
+
+
+    @media (max-width: 766px) {
+        #me-illustration {
+            margin-left: 3em;
+        }
+    }
+
+    @media (max-width: 650px) {
+        #me-illustration {
+            display: none;
+        }
+    }
+
+
+    @media (max-width: 1200px) {
+        /* Bump up size of carousel content */
+        .works {
+            margin: 2em 0em;
+            padding: 1.5em;
+        }
+
+        .col-md-7, .first {
+            order: 0 !important;
+        }
+
+        .col-md-5, .second {
+            order: 1 !important;
+        }
+
+        .lang {
+            order: 3 !important;
+        }
+
+        .work-tiny-heading {
+            margin-top: 1em;
+        }
+
+        .works-heading {
+            margin: 0.5em 0em;
+        }
+
+        .contant {
+            background-color: #33394E;
+            /* padding: 4em; */
+            padding: 3em 2em;
+        }
+
+        .touch {
+            margin-bottom: 0.7em;
+        }
+
+        #Work-Exp-Box {
+            padding: 1em;
+        }
+
+        .work-exp-year {
+            margin-top: 2em;
+        }
+
+        .star2 {
+            background-image: url('Images/Star 3.svg');
+            width: 1.4em;
+            height: 2em;
+            background-repeat: no-repeat;
+            display: inline-block;
+            /* margin-top: 2em; */
+            position: relative;
+            margin-right: 0.4em;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+            justify-content: center !important;
+            margin: auto;
+            display: block;
+        }
+    }
+
+
+    @media (min-width: 1200px) {
+        .works {
+            background: linear-gradient(90deg, #33394E 80%, #282D41 20%);
+        }
+
+        .the-quest {
+            background: linear-gradient(90deg, #282D41 20%, #33394E 80%);
+        }
+
+        .row.works:hover {
+            background: #123456;
+            opacity: 0.2;
+        }
+
+        .touch {
+            position: relative;
+            bottom: 0.75em;
+        }
+
+        .content-titles {
+            font-size: 3em;
+        }
+
+        .thequest-lang {
+            text-align: right !important;
+        }
+        /*#about-box span {
+            position: relative;
+            top: 1em;
+        }
+
+        #about-box p {
+            position: relative;
+            bottom: 3em;
+        }
+        #about-box h2 {
+            position: relative;
+            bottom: 1em;
+        }*/
+    }
+}
+
+
